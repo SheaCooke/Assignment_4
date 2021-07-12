@@ -1,16 +1,36 @@
 ﻿body {
-    background-image: linear-gradient(to right, black, grey);
+    background-image: linear-gradient(to right, black, grey, black);
     color: white;
 }
 
 
-header{
+header {
+    color: white;
     text-align: center;
     text-decoration: underline;
+    /*
+    font-size: 1rem;
+    background: linear-gradient(45deg, green, lightgreen, green);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+    -webkit-text-fill-color: transparent;*/
+}
+
+    #subtitle{
+    
+    font-style: italic;
 }
 
 main{
     text-align: center;
+}
+
+.TOC{
+    
+    list-style-position: inside;
+    
 }
 
 
@@ -21,9 +41,8 @@ article{
 
 img{
     outline: solid;
-
-}
-
-h2{
     
+
 }
+
+
