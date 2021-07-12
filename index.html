@@ -1,12 +1,58 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
-    xmlns:msxsl="urn:schemas-microsoft-com:xslt" exclude-result-prefixes="msxsl"
->
-    <xsl:output method="xml" indent="yes"/>
+﻿﻿
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>CSS Exercises</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
 
-    <xsl:template match="@* | node()">
-        <xsl:copy>
-            <xsl:apply-templates select="@* | node()"/>
-        </xsl:copy>
-    </xsl:template>
-</xsl:stylesheet>
+    <header>
+        <h1>Places the Army has sent me</h1>
+    </header>
+
+    <main>
+
+        <article>
+            <h2>Fort Jackson, South Carolina</h2>
+            <p>Duration: About 11 weeks for basic training</p>
+            <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi2.wp.com%2Farmybases.org%2Fwp-content%2Fuploads%2F2018%2F09%2FFort-Jackson.jpg%3Fresize%3D1024%252C683&f=1&nofb=1" alt=Sign that says Fort Jackson width="500" height="400">
+        </article>
+
+        <article>
+            <h2>GoodFellow Airforce Base, Texas</h2>
+            <p>Duration: Just over 6 months for job specific training</p>
+            <img src="https://media.defense.gov/2012/Jan/17/2000186226/-1/-1/0/120117-F-EQ104-001.JPG" alt="Pictuer of an aircraft infront of a gate" width="650" height="400" />
+        </article>
+
+        <article>
+            <h2>Fort Benning, Georgia</h2>
+            <p>Duration: about 3.5 weeks for jump school</p>
+            <img src="https://cdn.dvidshub.net/media/thumbs/photos/2008/6315390/1000w_q95.jpg" alt="Soldier jumping out of an aircraft with a static line parachute" width="550" height="400">
+        </article>
+
+        <article>
+            <h2>Fort Campbell, Kentucky</h2>
+            <p>Duration: About 4 years, assigned duty station</p>
+            <img src="https://images04.military.com/sites/default/files/styles/full/public/undertheradar-thumbnails/2015/08/world-class-army-home.jpg?itok=lhw9Fgvy" alt="Stone sign, reads Welcome To Fort Campbell, has unit patches of all units stationed at fort campbell towards the bottom." width="500" height="400">
+        </article>
+
+        <article>
+            <h2>Camp Gruber, Oklahoma</h2>
+            <p>Duration: About 6 weeks for training</p>
+            <img src="https://upload.wikimedia.org/wikipedia/en/f/fe/Campgruber.jpg" alt="Picture of gate and sign that reads Camp Gruber" width="650" height="400" />
+
+        </article>
+
+
+
+   
+
+    <footer> &copy Shea Cooke </footer>
+
+    </main>
+
+</body>
+</html>
