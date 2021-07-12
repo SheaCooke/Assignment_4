@@ -1,0 +1,29 @@
+﻿body {
+    background-image: linear-gradient(to right, black, grey);
+    color: white;
+}
+
+
+header{
+    text-align: center;
+    text-decoration: underline;
+}
+
+main{
+    text-align: center;
+}
+
+
+article{
+    outline: solid;
+    
+}
+
+img{
+    outline: solid;
+
+}
+
+h2{
+    
+}
